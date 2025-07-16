@@ -24,7 +24,6 @@ dnf install -y \
   traceroute tcpdump wireshark mtr curl wget telnet nmap \
   epel-release open-vm-tools \
   tmux jq git \
-  lsof strace stress locate \
   selinux-policy libselinux-utils setools setools-console setroubleshoot
 ```
 
