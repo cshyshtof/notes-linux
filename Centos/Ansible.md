@@ -21,7 +21,7 @@ actions:
 Generate temporary password, which will be used only to upload an SSH key to remote host (template)
 
 ```bash
-sudo useradd ansible -m -c "Ansible" -s /bin/bash -G wheel
+sudo useradd ansible -m -c "Ansible" -s /bin/bash
 sudo passwd ansible
 
 sudo su -
