@@ -18,6 +18,7 @@ actions:
 
 - Install
 	- `dnf install tmux`
+- Basics
 	- `Ctrl+b ?` - list all shortcuts
 	- `Ctrl+b :` - command mode
 	- Session > Window > Panel
@@ -27,7 +28,7 @@ actions:
 	- `Ctrl+b $` - change session name
 	- `Ctrl+b (` - previous session
 	- `Ctrl+b (` - next session
-	- `Ctrl+b D` - detach, session remains active after you logout
+	- `Ctrl+b d` - detach, session remains active after you logout
 	- `tmux a -t <id>|<name>` - attach to a session
 - Panel
 	- `Ctrl+b "` - horizontal split
@@ -35,7 +36,7 @@ actions:
 	- `Ctrl+b arrows` - move between panels
 	- `Ctrl+b x` - delete panel
 	- `Ctrl+b q` - display panel indexes
-	- `Ctrl+b q <id>` - move to panel with specified IDID
+	- `Ctrl+b q <id>` - move to panel with specified ID
 	- `Ctrl+b !` - convert panel into window
 	- `Ctrl+b z` - temporary panel zoom
 - Window
@@ -48,3 +49,4 @@ actions:
 	- `Ctrl+b w` - list windows and panels
 - Config
 	- `~/.tmux.conf`
+
